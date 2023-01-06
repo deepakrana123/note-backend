@@ -9,6 +9,10 @@ const getNotes = asyncHandler(async (req, res) => {
   res.json(notes);
 });
 
+const getHello = asyncHandler(async (req, res) => {
+  console.log("hlo")
+})
+
 //@description     Fetch single Note
 //@route           GET /api/notes/:id
 //@access          Public
