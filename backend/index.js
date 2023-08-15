@@ -23,8 +23,8 @@ app.use("/api/note", noteRoute);
 
 
 
-app.use(notFound);
-app.use(errorHandler);
+// app.use(notFound);
+// app.use(errorHandler);
 
 
 connectDB();
